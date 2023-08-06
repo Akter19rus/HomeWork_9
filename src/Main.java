@@ -48,7 +48,7 @@ public class Main {
         int[] spending = generateRandomArray();
         int spendingIsMonth = 0;
         float averageSpending = 0;
-        int day = 30;
+        int day = spending.length;
         for (int i : spending) {
             spendingIsMonth += i;
             averageSpending = (float) spendingIsMonth / day;
